@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous">
+
+    <style>
+        .top_sec {
+            cursor: pointer;
+        }
+
+        i {
+            color: #ef4a23;
+        }
+
+        .bord {
+            display: inline-block;
+            border: 1px dashed #ef4a23;
+            padding: 5px 0;
+            margin-left: 10px;
+            min-width: 140px;
+            border-radius: 7px;
+            text-align: center;
+            color: #808996;
+        }
+    </style>
+
+    <!-- CSS External File -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link rel="stylesheet" href="./style/monitor-style.css">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/0843a02c24.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <!-- First Navbar section -->
+        <nav class="navbar navbar-expand-lg bg-black p-2">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./Img/Site-Logo/Logo.png" alt="Bootstrap" width="140" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between"
+                    id="navbarSupportedContent">
+
+                    <!-- Nav Search section -->
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 col-lg-6" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light fw-medium border-2"
+                            type="submit">Search</button>
+                    </form>
+
+
+
+                    <ul
+                        class="nav nav-pills justify-content-sm-start justify-content-lg-end align-items-center">
+
+                        <div class="d-flex align-items-center me-3">
+                            <span><i class="fa-solid fa-gift icon-FontsNav"></i></span>
+                            <li class="nav-item">
+                                <div class="d-flex flex-column justify-content-start m-2">
+                                    <a class="nav-link p-0 fw-medium text-white"
+                                        href="offers.html">Offers</a>
+                                    <span class=" fw-medium"
+                                        style="font-size: 12px; color: gainsboro;">Latest
+                                        Offers</span>
+                                </div>
+
+                            </li>
+                        </div>
+                        <div class="d-flex align-items-center me-3">
+                            <span><i class="fa-solid fa-bolt-lightning icon-FontsNav"></i></span>
+                            <li class="nav-item">
+                                <div class="d-flex flex-column justify-content-start m-2">
+                                    <a class="nav-link p-0 fw-medium text-white" href="#">Gadget
+                                        Fest</a>
+                                    <span class=" fw-medium"
+                                        style="font-size: 12px; color: gainsboro;">Special
+                                        Deals</span>
+                                </div>
+
+                            </li>
+                        </div>
+                        <div class="d-flex align-items-center me-3">
+                            <span><i class="fa-solid fa-user icon-FontsNav"></i></span>
+                            <li class="nav-item">
+                                <div class="d-flex flex-column justify-content-start m-2">
+                                    <a class="nav-link p-0 fw-medium text-white"
+                                        href="#">Account</a>
+                                    <span class=" fw-medium"
+                                        style="font-size: 12px; color: gainsboro;"><a
+                                            class="navbar-Account"
+                                            href="./register.html">Register</a>
+                                        or
+                                        <a class="navbar-Account" href="./login.html">Login</a>
+                                    </span>
+                                </div>
+
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-medium" aria-current="page"
+                                    href="./pc-builder.html">PC
+                                    Builder</a>
+                            </li>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Second Navbar section -->
+        <nav class="navbar navbar-expand-lg p-3 mb-5 navColor">
+            <div class="container ">
+
+                <span data-bs-target="#navbarSupportedContent">
+
+                </span>
+                <div class="collapse navbar-collapse justify-content-between"
+                    id="navbarSupportedContent">
+                    <ul
+                        class=" nav nav-pills justify-content-sm-start justify-content-lg-end align-items-center">
+                        <li class="me-3 fw-medium"><a class="secondNavList"
+                                href="./index.html">Home</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Desktop</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Laptop</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Component</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList"
+                                href="./monitor.html">Monitor</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Phone</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Tablet</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Office
+                                Equipment</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Camera</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Security</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Networking</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Software</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Server &
+                                Storage</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Accessories</a>
+                        </li>
+
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">TV</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <div class="container-lg bg-light shadow">
+            <div class="container text-center border-bottom">
+                <div class="row g-2">
+                    <div class="col-12">
+                        <div class="p-3 d-flex justify-content-between">
+                            <div>
+                                <img src="./logo (1).png" alt="" class="img-fluid">
+                            </div>
+                            <div class="d-flex top_sec">
+                                <div class="me-3 side_bar">
+                                    <span class="d-flex flex-column"><i
+                                            class="fa-solid fa-cart-plus"></i></span>
+                                    <span>Add to Cart</span>
+                                </div>
+                                <div class="me-3">
+                                    <span class="d-flex flex-column"><i
+                                            class="fa-solid fa-floppy-disk"></i></span>
+                                    <span>Save PC</span>
+                                </div>
+                                <div class="me-3">
+                                    <span class="d-flex flex-column"><i
+                                            class="fa-solid fa-print"></i></span>
+                                    <span>Print</span>
+                                </div>
+                                <div class="me-3">
+                                    <span class="d-flex flex-column"><i
+                                            class="fa-brands fa-screenpal"></i></span>
+                                    <span>Screenshot</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="container text-center">
+                    <div class="row g-2">
+                        <div class="col-12">
+                            <div class="p-3 d-flex justify-content-between">
+
+                                <div class="d-flex flex-column">
+                                    <span class="text-primary d-flex flex-column mb-2">PC Builder -
+                                        Build Your Own Computer - Star Tech</span>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value=""
+                                            id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            Hide Unconfigured Components
+                                        </label>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex">
+                                    <div class="me-5 bord">
+                                        <span class="d-flex flex-column">0W</span>
+                                        <span>Estimated Wattage</span>
+                                    </div>
+                                    <div class="bg-primary px-5 py-2 rounded-4">
+                                        <span class="d-flex flex-column">0৳ </span>
+                                        <span>0 Items</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="bg-secondary text-white lh-1 px-2 py-1">
+                        Core Components
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/cpu.png" alt="" width="100px" height="100px"
+                                class="img-fluid">
+                            <span>CPU</span>
+                            <span class="bg-body-secondary p-2">Required</span>
+                        </div>
+                        <div class="mt-4">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- cpu cooler-->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/CPU Cooler.jpeg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>CPU Cooler</span>
+                        </div>
+                        <div class="mt-4">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- motherboard -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/Motherboard.jpeg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Motherboard</span>
+                            <span class="bg-body-secondary p-2">Required</span>
+                        </div>
+                        <div class="mt-3">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- Ram -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/ram.jpg" alt="" width="100px" height="100px"
+                                class="img-fluid">
+                            <span>RAM</span>
+                            <span class="bg-body-secondary p-2">Required</span>
+                        </div>
+                        <div class="mt-3">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- Storage -->
+                    <div class="d-flex justify-content-between mt-3">
+                        <div>
+                            <img src="./Img/Pc Builder/Storage.jpeg" alt="" width="80px"
+                                height="80px" class="img-fluid">
+                            <span>Storage</span>
+                            <span class="bg-body-secondary p-2">Required</span>
+                        </div>
+                        <div class="mt-2">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- Gpu -->
+                    <div class="d-flex justify-content-between mt-5">
+                        <div>
+                            <img src="./Img/Pc Builder/Graphics Card.jpeg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Graphics Card</span>
+                        </div>
+                        <div class="mt-2">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- powersupply -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/Power Supply.jpg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Power Supply</span>
+                        </div>
+                        <div class="mt-5">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- casing -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/casing.jpeg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Casing</span>
+                        </div>
+                        <div class="mt-3">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- 2nd line -->
+                    <div class="bg-secondary text-white lh-1 px-2 py-1 mt-4">
+                        Peripherals & Others
+                    </div>
+                    <!-- monitor -->
+                    <div class="d-flex justify-content-between mt-3">
+                        <div>
+                            <img src="./Img/Pc Builder/monitor.png" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Monitor</span>
+                        </div>
+                        <div class="mt-3">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- casing center -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/casing.jpeg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Casing Center</span>
+                        </div>
+                        <div class="mt-4">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- Keyboard -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/Keyboard.jpeg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Keyboard</span>
+                        </div>
+                        <div class="mt-4">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- Mouse -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/Mouse.jpg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Mouse</span>
+                        </div>
+                        <div class="mt-4">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- Antivirus -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/Anti Virus.png" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Anti Virus</span>
+                        </div>
+                        <div class="mt-4">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- Headphone -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <img src="./Img/Pc Builder/Headphone.jpg" alt="" width="100px"
+                                height="100px" class="img-fluid">
+                            <span>Headphone</span>
+                        </div>
+                        <div class="mt-4">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                    <!-- Ups -->
+                    <div class="d-flex justify-content-between mb-3">
+                        <div>
+                            <img src="./Img/Pc Builder/ups.jpeg" alt="" width="100px" height="100px"
+                                class="img-fluid">
+                            <span>UPS</span>
+                        </div>
+                        <div class="mt-4">
+                            <input class="btn btn-primary" type="submit" value="Choose">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <div class="container-fluid ">
+        <footer
+            class=" row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 px-5 mt-5 border-top footers-Style text-light">
+            <div class="col mb-3 ">
+                <h5>SUPPORT</h5>
+
+                <div class="d-flex align-items-center border mt-4 foterMiniRound">
+                    <div>
+                        <div class="px-3">
+                            <i class="fa-solid fa-phone fs-3"></i>
+                        </div>
+                    </div>
+                    <div class="border-start ps-4 py-1">
+                        <p class="m-0" style="font-size: 12px;">10AM - 7PM</p>
+                        <h5 class="m-0" style="font-size: 20px; color: orangered;">16793</h5>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center border mt-4 foterMiniRound">
+                    <div>
+                        <div class="px-3">
+                            <i class="fa-solid fa-location-dot fs-3"></i>
+                        </div>
+                    </div>
+                    <div class="border-start ps-4 py-1">
+                        <p class="m-0" style="font-size: 12px;">Store Locator</p>
+                        <h5 class="m-0" style="font-size: 20px; color: orangered;">Find Our Stores
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-3">
+                <h5>ABOUT US</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2 "><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">EMI
+                            Terms</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Privacy
+                            Policy</a></li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Star
+                            Point Policy</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Brands
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="col mb-3 mt-4">
+                <h5></h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">About Us
+                        </a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Terms and
+                            Conditions</a></li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Blog </a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 footerFontsColor">Online Service Support</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col mb-3  mt-4">
+                <h5></h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Online
+                            Delivery </a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Refund
+                            and Return Policy</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Contact
+                            Us</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./complain.html"
+                            class="nav-link p-0 footerFontsColor">Complain / Advice</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5>STAY CONNECTED</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light fw-medium">Star Tech Ltd</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis ">Head
+                            Office: 28 Kazi Nazrul
+                            Islam Ave,Navana Zohura Square, Dhaka 1000</a></li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis ">Email:</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 footerFontsColor">webteam@startechbd.com</a>
+                    </li>
+
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

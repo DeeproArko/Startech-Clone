@@ -1,0 +1,49 @@
+/* Second navbar bgColor */
+.navColor {
+    background-color: white !important;
+}
+
+.secondNavList {
+    color: #111111;
+    text-decoration: none;
+}
+
+.secondNavList:hover {
+    color: orangered;
+}
+
+/* Card Buy Now button style */
+.card-Buy-Now {
+    color: blue !important;
+    font-weight: 600 !important;
+    background-color: rgb(211, 211, 248) !important;
+
+    border: none !important;
+    border-radius: 3px !important;
+    font-size: 13px !important;
+}
+
+.card-Buy-Now:hover {
+    color: white !important;
+    background-color: blue !important;
+}
+
+
+/* Card Compare button style */
+.card-Compare {
+    color: #111111 !important;
+    font-weight: 600 !important;
+    background-color: aliceblue;
+
+    border: none !important;
+    border-radius: 3px !important;
+    font-size: 13px !important;
+}
+
+.card-Compare:hover {
+    background-color: rgb(211, 211, 248) !important;
+}
+
+.checkLabel:hover {
+    background-color: rgb(229, 244, 255);
+}

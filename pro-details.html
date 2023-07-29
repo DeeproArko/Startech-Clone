@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE-1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous">
+
+
+    <!-- CSS External File -->
+    <link rel="stylesheet" href="./style/style.css">
+
+    <link rel="stylesheet" href="./style/monitor-style.css">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/0843a02c24.js" crossorigin="anonymous"></script>
+
+    <style>
+        .radioHov:hover {
+            border-color: #096AEF !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- First Navbar section -->
+        <nav class="navbar navbar-expand-lg bg-black p-2">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./Img/Site-Logo/Logo.png" alt="Bootstrap" width="140" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between"
+                    id="navbarSupportedContent">
+
+                    <!-- Nav Search section -->
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 col-lg-6" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light fw-medium border-2"
+                            type="submit">Search</button>
+                    </form>
+
+
+
+                    <ul
+                        class="nav nav-pills justify-content-sm-start justify-content-lg-end align-items-center">
+
+                        <div class="d-flex align-items-center me-3">
+                            <span><i class="fa-solid fa-gift icon-FontsNav"></i></span>
+                            <li class="nav-item">
+                                <div class="d-flex flex-column justify-content-start m-2">
+                                    <a class="nav-link p-0 fw-medium text-white"
+                                        href="offers.html">Offers</a>
+                                    <span class=" fw-medium"
+                                        style="font-size: 12px; color: gainsboro;">Latest
+                                        Offers</span>
+                                </div>
+
+                            </li>
+                        </div>
+                        <div class="d-flex align-items-center me-3">
+                            <span><i class="fa-solid fa-bolt-lightning icon-FontsNav"></i></span>
+                            <li class="nav-item">
+                                <div class="d-flex flex-column justify-content-start m-2">
+                                    <a class="nav-link p-0 fw-medium text-white" href="#">Gadget
+                                        Fest</a>
+                                    <span class=" fw-medium"
+                                        style="font-size: 12px; color: gainsboro;">Special
+                                        Deals</span>
+                                </div>
+
+                            </li>
+                        </div>
+                        <div class="d-flex align-items-center me-3">
+                            <span><i class="fa-solid fa-user icon-FontsNav"></i></span>
+                            <li class="nav-item">
+                                <div class="d-flex flex-column justify-content-start m-2">
+                                    <a class="nav-link p-0 fw-medium text-white"
+                                        href="#">Account</a>
+                                    <span class=" fw-medium"
+                                        style="font-size: 12px; color: gainsboro;"><a
+                                            class="navbar-Account"
+                                            href="./register.html">Register</a>
+                                        or
+                                        <a class="navbar-Account" href="./login.html">Login</a>
+                                    </span>
+                                </div>
+
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-medium" aria-current="page"
+                                    href="./pc-builder.html">PC
+                                    Builder</a>
+                            </li>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Second Navbar section -->
+        <nav class="navbar navbar-expand-lg p-3 mb-5 navColor">
+            <div class="container ">
+
+                <span data-bs-target="#navbarSupportedContent">
+
+                </span>
+                <div class="collapse navbar-collapse justify-content-between"
+                    id="navbarSupportedContent">
+                    <ul
+                        class=" nav nav-pills justify-content-sm-start justify-content-lg-end align-items-center">
+                        <li class="me-3 fw-medium"><a class="secondNavList"
+                                href="./index.html">Home</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Desktop</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Laptop</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Component</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList"
+                                href="./monitor.html">Monitor</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Phone</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Tablet</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Office
+                                Equipment</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Camera</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Security</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Networking</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Software</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Server &
+                                Storage</a>
+                        </li>
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">Accessories</a>
+                        </li>
+
+                        <li class="me-3 fw-medium"><a class="secondNavList" href="">TV</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- top section -->
+        <div class="container text-center">
+            <div class="row g-2">
+                <div class="col-lg-12">
+                    <div class="p-3 d-flex justify-content-between shadow p-3 rounded-5 ">
+                        <div class="">
+                            <span class="me-2 top_section">
+                                Share:
+                            </span>
+                            <span class="me-2 top_section">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </span>
+                            <span class="me-2 top_section">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <span class="section_hover">
+                                <span class="me-2 top_section">
+                                    <i class="fa-regular fa-bookmark"></i>
+                                </span>
+                                <span class="me-2 top_section">
+                                    Save
+                                </span>
+                            </span>
+                            <span class="section_hover">
+                                <span class="me-2 top_section ">
+                                    <i class="fa-solid fa-notes-medical"></i>
+                                </span>
+                                <span class="me-2 top_section">
+                                    Add To Compare
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- section -->
+
+        <div class="container text-center mt-5">
+            <div class="row g-2">
+                <div class="col-lg-4">
+                    <div class="p-3">
+                        <img class="img-fluid" src="./Img/pro-details/1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="p-3 text-start">
+                        <div>
+                            <h4 class="mb-3 text-primary">Enter E-MO-A01 19-inch HD LED Backlit
+                                Monitor
+                            </h4>
+                        </div>
+                        <div class="mb-3">
+                            <span class=" bg-secondary-subtle py-1 px-3 rounded-4">Price: <span
+                                    class="fw-medium">7,200৳</span></span>
+                            <span class=" bg-secondary-subtle py-1 px-3 rounded-4">Regular Price:
+                                <span class="fw-medium">7,574৳</span></span>
+                            <span class=" bg-secondary-subtle py-1 px-3 rounded-4">Status: <span
+                                    class="fw-medium">In Stock</span></span>
+                            <span class=" bg-secondary-subtle py-1 px-3 rounded-4">Product Code:
+                                <span class="fw-medium">24233</span></span>
+                            <span class=" bg-secondary-subtle py-1 px-3 rounded-4">Brand: <span
+                                    class="fw-medium">Enter</span></span>
+                        </div>
+                        <div class="fw-medium">
+                            <h5 class="mb-3">Key Features</h5>
+                            <p class="mb-1">Model: E-MO-A01</p>
+                            <p class="mb-1">Resolution: (1440 x 900) HD</p>
+                            <p class="mb-1">Display: 60Hz, 5ms</p>
+                            <p class="mb-1">Ports: VGA, HDMI</p>
+                            <p class="mb-1">Features: Flicker-Free</p>
+                            <p><a href="#" class="mb-1 text-danger">View More Info</a></p>
+                        </div>
+                        <div class="d-flex bg-primary w-25 py-2 px-4" style="border-radius: 50px;">
+                            <div style="font-size: 40px;" class="me-2">
+                                <i class="fa-solid fa-tag text-white"></i>
+                            </div>
+                            <div class="d-flex flex-column fw-medium text-white">
+                                <span>300৳ Discount</span>
+                                <span>On online order</span>
+                            </div>
+                        </div>
+
+                        <h5 class="mt-4">Payment Options</h5>
+                        <div class="d-flex row">
+                            <div
+                                class="col m-2 form-check border border-2 border-secondary-subtle d-flex align-items-center radioHov">
+                                <input class="form-check-input" style="padding: 14px;" type="radio"
+                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                <div class="mx-4 text-start">
+                                    <h4 class="form-check-label" for="flexRadioDefault1">7,200৳
+                                    </h4>
+                                    <div class="d-flex flex-column"
+                                        style="font-size: 13px; font-weight: 500;">
+                                        <span>300৳ Discount on </span>
+                                        <span>Online Order
+                                            Online </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="col m-2 form-check border border-2 border-secondary-subtle d-flex align-items-center radioHov">
+                                <input class="form-check-input"
+                                    style="padding: 14px; margin-right: 10px;" type="radio"
+                                    name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <div>
+                                    <h4 class="form-check-label" for="flexRadioDefault2">
+                                        631৳/month
+                                    </h4>
+                                    <div class="d-flex flex-column"
+                                        style="font-size: 13px; font-weight: 500;">
+                                        <span>Regular Price: 7,574৳</span>
+                                        <span>0% EMI for up to 12 Months***</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="container text-center">
+                        <div class="row g-2">
+                            <div class="col-7">
+                                <div class="p-0">
+                                    <div class="input-group mb-3 d-flex align-items-center">
+                                        <div class="col d-flex ">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-0 fw-bold fs-5 border"
+                                                type="button">+</button>
+                                            <input value="1" type="number"
+                                                class="text-center form-control fw-medium fs-5 rounded-0"
+                                                placeholder=""
+                                                aria-label="Example text with two button addons">
+                                            <button
+                                                class="btn btn-outline-secondary rounded-0  fw-bold fs-5 border"
+                                                type="button">-</button>
+                                        </div>
+
+                                        <div class="col d-grid gap-2">
+                                            <button class="btn btn-primary ms-4 rounded-1 active"
+                                                type="button">Buy
+                                                Now</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="p-3"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+    <div class="container-fluid ">
+        <footer
+            class=" row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 px-5 mt-5 border-top footers-Style text-light">
+            <div class="col mb-3 ">
+                <h5>SUPPORT</h5>
+
+                <div class="d-flex align-items-center border mt-4 foterMiniRound">
+                    <div>
+                        <div class="px-3">
+                            <i class="fa-solid fa-phone fs-3"></i>
+                        </div>
+                    </div>
+                    <div class="border-start ps-4 py-1">
+                        <p class="m-0" style="font-size: 12px;">10AM - 7PM</p>
+                        <h5 class="m-0" style="font-size: 20px; color: orangered;">16793</h5>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center border mt-4 foterMiniRound">
+                    <div>
+                        <div class="px-3">
+                            <i class="fa-solid fa-location-dot fs-3"></i>
+                        </div>
+                    </div>
+                    <div class="border-start ps-4 py-1">
+                        <p class="m-0" style="font-size: 12px;">Store Locator</p>
+                        <h5 class="m-0" style="font-size: 20px; color: orangered;">Find Our Stores
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-3">
+                <h5>ABOUT US</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2 "><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">EMI
+                            Terms</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Privacy
+                            Policy</a></li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Star
+                            Point Policy</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Brands
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="col mb-3 mt-4">
+                <h5></h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">About Us
+                        </a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Terms and
+                            Conditions</a></li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Blog </a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 footerFontsColor">Online Service Support</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col mb-3  mt-4">
+                <h5></h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Online
+                            Delivery </a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Refund
+                            and Return Policy</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis footerFontsColorHover">Contact
+                            Us</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="./complain.html"
+                            class="nav-link p-0 footerFontsColor">Complain / Advice</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="col mb-3">
+                <h5>STAY CONNECTED</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light fw-medium">Star Tech Ltd</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis ">Head
+                            Office: 28 Kazi Nazrul
+                            Islam Ave,Navana Zohura Square, Dhaka 1000</a></li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 text-light-emphasis ">Email:</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#"
+                            class="nav-link p-0 footerFontsColor">webteam@startechbd.com</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
